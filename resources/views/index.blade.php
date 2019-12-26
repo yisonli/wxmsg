@@ -234,7 +234,7 @@
                 }
             });
             $("#{{$id}}_input").val(JSON.stringify(msg_data));
-            alert('确认消息内容：'+JSON.stringify(msg_data));
+            console.log('确认消息内容：'+JSON.stringify(msg_data));
         });
 
         // 初始化参数...
